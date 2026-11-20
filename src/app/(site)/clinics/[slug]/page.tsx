@@ -128,7 +128,7 @@ export default async function ClinicPage({ params }: Props) {
               <ul className="grid max-w-(--container-reading) divide-y divide-line border-y border-line">
                 {clinic.whatToBring.map((item) => (
                   <li key={item.id} className="py-3">
-                    {item.item}
+                    {item.item} 
                   </li>
                 ))}
               </ul>
